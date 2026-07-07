@@ -14,6 +14,7 @@ Análisis completo de un dataset de usuarios de una plataforma de streaming, apl
 ---
 
 ## Estructura del proyecto
+´´´text
 PI_Mineria_Datos_1/
 ├── data/
 │   ├── raw/                  # Dataset original sin modificaciones
