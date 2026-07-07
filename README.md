@@ -15,10 +15,11 @@ Análisis completo de un dataset de usuarios de una plataforma de streaming, apl
 
 ## Estructura del proyecto
 
+```text
 PI_Mineria_Datos_1/
 ├── data/
-│   ├── raw/                  # Dataset original sin modificaciones
-│   └── processed/            # Dataset limpio generado por el pipeline
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 │   ├── 01_inspeccion_inicial.ipynb
 │   ├── 02_calidad_y_limpieza.ipynb
@@ -32,12 +33,11 @@ PI_Mineria_Datos_1/
 │       ├── 02_EDA.py
 │       ├── 03_PCA.py
 │       └── 04_Conclusiones.py
-├── reports/                  # Gráficos exportados desde los notebooks
-├── logs/                     # Log ETL del pipeline de limpieza
+├── reports/
+├── logs/
 ├── requirements.txt
 └── README.md
----
-
+```
 ## Dataset
 
 - **Archivo original:** `data/raw/streaming_users_dirty.csv`
