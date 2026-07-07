@@ -44,7 +44,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── BANNER ──
-st.image("https://raw.githubusercontent.com/Danielafz/PI_Mineria_Datos_I/main/app/assets/Gemini_Generated_Image_cnoe92cnoe92cnoe.png", use_container_width=True)
 st.divider()
 
 # ── TÍTULO ──
