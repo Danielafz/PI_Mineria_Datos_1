@@ -1,0 +1,14 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+0,Dataset original cargado,8160,753,100.0
+1,Eliminación de duplicados,8034,753,98.46
+2,Normalización subscription_plan,8034,753,98.46
+3,Normalización country,8034,753,98.46
+4,Normalización favorite_genre,8034,753,98.46
+5,Imputación favorite_genre con moda,8034,513,98.46
+6,Eliminación nulos last_login_date,7714,186,94.53
+7,Parseo de fechas (format='mixed') y eliminación de fechas inválidas,7650,185,93.75
+8,Filtrado de age imposible (0-100),7580,184,92.89
+9,Eliminación monthly_watch_time_mins imposible (negativos o >44.640),7505,184,91.97
+10,Imputación monthly_watch_time_mins con mediana,7505,0,91.97
+11,Winsorización monthly_watch_time_mins (k=1.5),7505,0,91.97
+12,"Eliminación customer_support_tickets inválido (-1, 99, 150)",7414,0,90.86
