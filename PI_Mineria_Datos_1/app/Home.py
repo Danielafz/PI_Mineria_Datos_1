@@ -96,7 +96,7 @@ st.divider()
 st.markdown("""
 <div class="info-card">
     <h3>🔗 Repositorio</h3>
-    <p>📁 <a href="https://github.com/Danielafz/PI_Mineria_Datos_I" target="_blank">
+    <p>📁 <a href="https://github.com/Danielafz/PI_Mineria_Datos_1" target="_blank">
     Ver repositorio en GitHub</a></p>
 </div>
 """, unsafe_allow_html=True)
